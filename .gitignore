@@ -1,0 +1,54 @@
+# Model files
+*.h5
+model_*/
+
+# Dataset
+dataset/
+test_images/
+
+# Results and logs
+*.csv
+*.png
+*.jpg
+*.jpeg
+logs/
+results/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+.env
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+.ipynb_checkpoints/
+
+# Tensorflow specific
+.keras/
